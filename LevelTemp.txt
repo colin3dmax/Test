@@ -1,0 +1,98 @@
+//开关，水龙头---------------------------------
+{
+    "idx":0,
+    "type":"BoxWater",
+    "position":[-280,100],
+    "rotation":0,
+    "scale":[0.3,0.3],
+    "boxInfo":{
+        "value":2,
+        "isClockCicle":false,
+        "maxWrongValue":0.5,
+        "startType":"preBoxDelay",
+        "isAutoFail":true,
+        "preBoxIdx":1,
+        "startDelayTime":1,
+        "totalAutoFailTime":2
+    }
+}
+//煤气灶------------------------------------
+{
+    "idx":0,
+    "type":"BoxFire",
+    "position":[-100,-149],
+    "rotation":0,
+    "scale":[0.25,0.25],
+    "boxInfo":{
+        "curValue":3,
+        "value":2,
+        "maxWrongValue":0,
+        "startType":"preBoxDelay",
+        "isAutoFail":true,
+        "preBoxIdx":0,
+        "startDelayTime":1,
+        "totalAutoFailTime":2
+    }
+}
+//温度计------------------------------------
+{
+    "idx":0,
+    "type":"BoxTemp",
+    "position":[284,56],
+    "rotation":0,
+    "scale":[0.3,0.3],
+    "boxInfo":{
+        "value":11,
+        "curValue":10,
+        "maxWrongValue":1,
+        "startType":"preBoxDelay",
+        "isAutoFail":true,
+        "preBoxIdx":0,
+        "startDelayTime":1,
+        "totalAutoFailTime":1
+    }
+}
+//热水壶------------------------------------
+{
+    "idx":0,
+    "type":"BoxTea",
+    "position":[240,-40],
+    "rotation":0,
+    "scale":[0.3,0.3],
+    "boxInfo":{
+        "time":1,
+        "maxWrongValue":0.5,
+        "startType":"preBoxDelay",
+        "isAutoFail":true,
+        "preBoxIdx":2,
+        "startDelayTime":1,
+        "totalAutoFailTime":2
+    }
+}
+//排风扇------------------------------------
+{
+    "idx":0,
+    "type":"BoxCircle",
+    "position":[240,80],
+    "rotation":0,
+    "scale":[0.3,0.3],
+    "boxInfo":{
+        "value":2,
+        "isClockCicle":true,
+        "maxWrongValue":0.5,
+        "startType":"preBoxDelay",
+        "isAutoFail":true,
+        "preBoxIdx":0,
+        "startDelayTime":1,
+        "totalAutoFailTime":1
+    }
+}
+//======================================
+"Level":{
+    "tipMsg":"",
+    "eachDelay":0.15,
+    "boxList":[
+        
+    ]
+}
+
